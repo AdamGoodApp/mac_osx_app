@@ -14,6 +14,7 @@
 		664647E117DD280C007F3330 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 664647DF17DD280C007F3330 /* MainMenu.xib */; };
 		664647E417DD280C007F3330 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 664647E317DD280C007F3330 /* rb_main.rb */; };
 		664647E617DD280C007F3330 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 664647E517DD280C007F3330 /* AppDelegate.rb */; };
+		667BD74117DD2D68006552D6 /* Adam_240x240.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 667BD74017DD2D68006552D6 /* Adam_240x240.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		664647E017DD280C007F3330 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		664647E317DD280C007F3330 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		664647E517DD280C007F3330 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		667BD74017DD2D68006552D6 /* Adam_240x240.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Adam_240x240.jpg; path = ../../../../Pictures/Adam_240x240.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		664647DE17DD280C007F3330 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				667BD74017DD2D68006552D6 /* Adam_240x240.jpg */,
 				664647DF17DD280C007F3330 /* MainMenu.xib */,
 			);
 			name = Resources;
@@ -189,6 +192,7 @@
 				664647E117DD280C007F3330 /* MainMenu.xib in Resources */,
 				664647E417DD280C007F3330 /* rb_main.rb in Resources */,
 				664647E617DD280C007F3330 /* AppDelegate.rb in Resources */,
+				667BD74117DD2D68006552D6 /* Adam_240x240.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +301,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					"/Library/Frameworks/**",
 				);
 				GCC_ENABLE_OBJC_GC = required;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -314,6 +319,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					"/Library/Frameworks/**",
 				);
 				GCC_ENABLE_OBJC_GC = required;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -355,6 +361,7 @@
 				664647EB17DD280C007F3330 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		664647EC17DD280C007F3330 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
 			isa = XCConfigurationList;
@@ -363,6 +370,7 @@
 				664647EE17DD280C007F3330 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
