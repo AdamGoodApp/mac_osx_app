@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		664647CF17DD280C007F3330 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664647CE17DD280C007F3330 /* Cocoa.framework */; };
+		664647D117DD280C007F3330 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664647D017DD280C007F3330 /* MacRuby.framework */; };
+		664647DA17DD280C007F3330 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 664647D817DD280C007F3330 /* InfoPlist.strings */; };
+		664647DC17DD280C007F3330 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 664647DB17DD280C007F3330 /* main.m */; };
+		664647E117DD280C007F3330 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 664647DF17DD280C007F3330 /* MainMenu.xib */; };
+		664647E417DD280C007F3330 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 664647E317DD280C007F3330 /* rb_main.rb */; };
+		664647E617DD280C007F3330 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 664647E517DD280C007F3330 /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		664647D317DD280C007F3330 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 664647C317DD280C007F3330 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 664647CA17DD280C007F3330;
+			remoteInfo = learningtxtInput;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		664647CB17DD280C007F3330 /* learningtxtInput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learningtxtInput.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		664647CE17DD280C007F3330 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		664647D017DD280C007F3330 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		664647D717DD280C007F3330 /* learningtxtInput-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "learningtxtInput-Info.plist"; sourceTree = "<group>"; };
+		664647D917DD280C007F3330 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		664647DB17DD280C007F3330 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		664647DD17DD280C007F3330 /* learningtxtInput-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "learningtxtInput-Prefix.pch"; sourceTree = "<group>"; };
+		664647E017DD280C007F3330 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		664647E317DD280C007F3330 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		664647E517DD280C007F3330 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		664647C817DD280C007F3330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664647CF17DD280C007F3330 /* Cocoa.framework in Frameworks */,
+				664647D117DD280C007F3330 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		664647C217DD280C007F3330 = {
+			isa = PBXGroup;
+			children = (
+				664647D517DD280C007F3330 /* learningtxtInput */,
+				664647CD17DD280C007F3330 /* Frameworks */,
+				664647CC17DD280C007F3330 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		664647CC17DD280C007F3330 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				664647CB17DD280C007F3330 /* learningtxtInput.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		664647CD17DD280C007F3330 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				664647CE17DD280C007F3330 /* Cocoa.framework */,
+				664647D017DD280C007F3330 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		664647D517DD280C007F3330 /* learningtxtInput */ = {
+			isa = PBXGroup;
+			children = (
+				664647E517DD280C007F3330 /* AppDelegate.rb */,
+				664647DE17DD280C007F3330 /* Resources */,
+				664647E217DD280C007F3330 /* Other Sources */,
+				664647D617DD280C007F3330 /* Supporting Files */,
+			);
+			path = learningtxtInput;
+			sourceTree = "<group>";
+		};
+		664647D617DD280C007F3330 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				664647D717DD280C007F3330 /* learningtxtInput-Info.plist */,
+				664647D817DD280C007F3330 /* InfoPlist.strings */,
+				664647DB17DD280C007F3330 /* main.m */,
+				664647DD17DD280C007F3330 /* learningtxtInput-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		664647DE17DD280C007F3330 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				664647DF17DD280C007F3330 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		664647E217DD280C007F3330 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				664647E317DD280C007F3330 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		664647D217DD280C007F3330 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 664647EC17DD280C007F3330 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				664647D417DD280C007F3330 /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		664647CA17DD280C007F3330 /* learningtxtInput */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 664647E917DD280C007F3330 /* Build configuration list for PBXNativeTarget "learningtxtInput" */;
+			buildPhases = (
+				664647C717DD280C007F3330 /* Sources */,
+				664647C817DD280C007F3330 /* Frameworks */,
+				664647C917DD280C007F3330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = learningtxtInput;
+			productName = learningtxtInput;
+			productReference = 664647CB17DD280C007F3330 /* learningtxtInput.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		664647C317DD280C007F3330 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Adam Rais";
+			};
+			buildConfigurationList = 664647C617DD280C007F3330 /* Build configuration list for PBXProject "learningtxtInput" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 664647C217DD280C007F3330;
+			productRefGroup = 664647CC17DD280C007F3330 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				664647CA17DD280C007F3330 /* learningtxtInput */,
+				664647D217DD280C007F3330 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		664647C917DD280C007F3330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664647DA17DD280C007F3330 /* InfoPlist.strings in Resources */,
+				664647E117DD280C007F3330 /* MainMenu.xib in Resources */,
+				664647E417DD280C007F3330 /* rb_main.rb in Resources */,
+				664647E617DD280C007F3330 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		664647C717DD280C007F3330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664647DC17DD280C007F3330 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		664647D417DD280C007F3330 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 664647CA17DD280C007F3330 /* learningtxtInput */;
+			targetProxy = 664647D317DD280C007F3330 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		664647D817DD280C007F3330 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				664647D917DD280C007F3330 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		664647DF17DD280C007F3330 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				664647E017DD280C007F3330 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		664647E717DD280C007F3330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		664647E817DD280C007F3330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		664647EA17DD280C007F3330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "learningtxtInput/learningtxtInput-Prefix.pch";
+				INFOPLIST_FILE = "learningtxtInput/learningtxtInput-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		664647EB17DD280C007F3330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "learningtxtInput/learningtxtInput-Prefix.pch";
+				INFOPLIST_FILE = "learningtxtInput/learningtxtInput-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		664647ED17DD280C007F3330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		664647EE17DD280C007F3330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		664647C617DD280C007F3330 /* Build configuration list for PBXProject "learningtxtInput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664647E717DD280C007F3330 /* Debug */,
+				664647E817DD280C007F3330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		664647E917DD280C007F3330 /* Build configuration list for PBXNativeTarget "learningtxtInput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664647EA17DD280C007F3330 /* Debug */,
+				664647EB17DD280C007F3330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		664647EC17DD280C007F3330 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664647ED17DD280C007F3330 /* Debug */,
+				664647EE17DD280C007F3330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 664647C317DD280C007F3330 /* Project object */;
+}
